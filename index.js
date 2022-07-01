@@ -1,3 +1,5 @@
+var today= moment().format("dddd MMMM DD, yy")
+$('#currentDay').text(today)
 var now = moment().format("HH")
 loadSettings()
 
