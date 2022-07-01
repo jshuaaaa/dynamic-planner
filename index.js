@@ -1,9 +1,6 @@
-var calendar = document.querySelector(".calendar")
-var today = moment().format("dddd, MMMM Do YYYY")
 var now = moment().format("HH")
-localStorage.getItem('test')
-
 loadSettings()
+
 // Loads the storage that was stored based on open
 function loadSettings() {
     $('#9').val(localStorage.a)
